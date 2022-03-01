@@ -1,0 +1,9 @@
+.card {
+  border-radius: 1rem;
+}
+img {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.row {
+  width: 70%;
+}
