@@ -120,6 +120,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(session(sessionConfig));
+console.log(session);
 app.use(flash());
 
 // By default, $ and . characters are removed completely from user-supplied input in the following places:
